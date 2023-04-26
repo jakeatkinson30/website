@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Jake Atkinson - Portfolio</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav id="navBar">
+            <li class="left">Jake Atkinson</li>
+            <div class="right">
+                <a href="#galleryContainer"><li>Work</li></a>
+                <a href="#contactContainer"><li>Contact</li></a>
+            </div>
+        </ul>
+    </nav>
+
+    <main>
+      <!-- About Section -->
+        <div class="aboutSection">
+            <div class="aboutHeader">
+                <div class="circles-background">
+                  <div class="circle circle1"></div>
+                  <div class="circle circle2"></div>
+                  <div class="circle circle3"></div>
+                  <h2>Hello!<img src="./images/icons8-hand-peace-48.png" height="26px" width="25px" id="handGesture"> My name is Jake and I am a Software Developer based in Manchester, England. I am excited to share with you my experience and passion for software development.</h2>
+                </div>
+              </div>
+            <div id="imageContainer">
+                <img src="./images/resumeImage.jpg" width="220px" height="270px" id="resumeImage">
+                <div id="logoContainer">
+                    <a href="https://www.linkedin.com/in/jake-atkinson-240a011a4" target="_blank"><img src="./images/linkedin.png" height="20px" width="20px" id="linkedinLogo"></a>
+                    <a href="https://github.com/jakeatkinson30"><img src="./images/github.png" height="20px" width="20px" id="githubLogo"></a>
+                    <a href="mailto: jakea07@hotmail.com"><img src="./images/mail.png" height="20px" width="20px" id="githubLogo"></a>
+                </div>
+            </div>
+         </div>
+        <div class="aboutContent">
+            <p>I find that software development allows me to constantly challenge myself and learn new skills, making every project a rewarding and fulfilling experience.</p>
+            <p>Web development has opened up a whole new world of possibilities for me, allowing me to turn my ideas into reality and create solutions that have a positive impact on people's lives. It's incredibly empowering to be able to create something from scratch and watch it come to life.</p>
+        </div>
+
+        <!-- Project Section -->
+
+        <div id="galleryContainer">
+            <h2>Projects</h2>
+            <div class="gallery">
+                <div class="galleryImage"><img src="./images/dogAPI.png" alt="screenshot of dog API project"></div>
+                <div class="galleryText">
+                    <p class="galleryTextTitle"><strong>Dog API</strong></p>
+                    <p>A react app utlising the dog.ceo API, allowing the user to grab images of their favourite dogs.</p>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="galleryImage"><img src="./images/ticTacToe.png" alt="screenshot of tic tac toe game"></div>
+                    <div class="galleryText">
+                        <p class="galleryTextTitle"><strong>Tic Tac Toe</strong></p>
+                        <p>Building a tic tac toe game which keeps score, using javascript.</p>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="galleryImage"><img src="./images/weatherApp.png" alt="screenshot of weather app"></div>
+                    <div class="galleryText">
+                        <p class="galleryTextTitle"><strong>Weather App</strong></p>
+                        <p>A simple to use web application that provides weather information for a user's location using the OpenWeatherMap API.</p>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="galleryImage"><img src="./images/originalSite.png" alt="screenshot of originalSite"></div>
+                    <div class="galleryText">
+                        <p class="galleryTextTitle"><strong>First Website</strong></p>
+                        <p>This was my first webpage I created that displayed my portfolio. I have since chosen this current page due to it's simplicity.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contact Section -->
+        <div id="contactContainer">
+            
+            <h1>Get In Touch <img src="./images/writing.png" height="30px" width="30px"> </h1>
+            
+            <p class="contactContent">I am currently looking for new opportunities and would love to hear from you. If you have any questions or would like to reach out for a chat, my inbox is always open.</p>
+
+            <a href="mailto: jakea07@hotmail.com"><button class="contactBtn">Message</button></a>
+        </div>
+
+    </main>
+</body>
+
+</html>
