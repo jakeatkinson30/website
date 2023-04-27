@@ -1,12 +1,12 @@
 html {
-    margin: 0;
-    background-color: #111122;
-    color: white;
+  margin: 0;
+  background-color: #111122;
+  color: white;
 }
 
 body {
-    margin: 0px 25%;
-    font-family: 'Inter', sans-serif;
+  margin: 0px 25%;
+  font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -17,137 +17,137 @@ a {
 /* Nav Section */
 
 #navBar {
-    overflow: hidden;
-    margin-bottom: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 
 #navBar li {
-    float: left;
-    display: block;
-    text-align: center;
-    text-decoration: none;
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 
 .left {
-    float: left;
-    padding: 18px 0px 0px 0px;
-    font-size: 1.3rem;
+  float: left;
+  padding: 18px 0px 0px 0px;
+  font-size: 1.3rem;
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 .right li {
-    padding: 18px 0px 0px 20px;
+  padding: 18px 0px 0px 20px;
 }
 
 .aboutHeader {
-    text-align: center;
-  }
-  
-  .circles-background {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-  }
-  
-  .circle {
-    position: absolute;
-    border-radius: 50%;
-  }
-  
-  .circle1 {
-    top: 0px;
-    left: 210px;
-    width: 240px;
-    height: 240px;
-    background: radial-gradient( #1d1e3a,  #111122);
-    z-index: -3;
-  }
-  
-  .circle2 {
-    top: 30px;
-    right: 80px;
-    width: 220px;
-    height: 220px;
-    background: linear-gradient(to top, #4b4e6d, #111122);
-    z-index: -2;
-  }
-  
-  .circle3 {
-    top: 10px;
-    left: 60px;
-    width: 160px;
-    height: 160px;
-    background: linear-gradient(to bottom, #4b4e6d,  #111122);
-    z-index: -1;
-  }
-  
-  .circles-background h2 {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    font-size: 1.6em;
-    color: #fff;
-    text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
-    margin: 0;
-    padding: 50px 0px;
-  }
-  
+  text-align: center;
+}
+
+.circles-background {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+  top: 0px;
+  left: 210px;
+  width: 240px;
+  height: 240px;
+  background: radial-gradient(#1d1e3a, #111122);
+  z-index: -3;
+}
+
+.circle2 {
+  top: 30px;
+  right: 80px;
+  width: 220px;
+  height: 220px;
+  background: linear-gradient(to top, #4b4e6d, #111122);
+  z-index: -2;
+}
+
+.circle3 {
+  top: 10px;
+  left: 60px;
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(to bottom, #4b4e6d, #111122);
+  z-index: -1;
+}
+
+.circles-background h2 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-size: 1.6em;
+  color: #fff;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 50px 0px;
+}
+
 /* About Section */
 
 .aboutSection {
-    display: flex;
-    align-items: center;
-    margin-top: 45px;
-    margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+  margin-bottom: 25px;
 }
 
 #handGesture {
-    margin-left: 4px;
-    margin-bottom: -4px;
+  margin-left: 4px;
+  margin-bottom: -4px;
 }
 
 .aboutHeader {
-    letter-spacing: 3px;
-    line-height: 2rem;
+  letter-spacing: 3px;
+  line-height: 2rem;
 }
 
 .aboutHeader h2 {
-    line-height: 2.2rem;
+  line-height: 2.2rem;
 }
 
 .aboutContent,
 .contactContent {
-    letter-spacing: 3px;
-    line-height: 1.7rem;
-    margin-bottom: 30px;
+  letter-spacing: 3px;
+  line-height: 1.7rem;
+  margin-bottom: 30px;
 }
 
 #resumeImage {
-    margin-left: 20px;
-    border-radius: 17px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 0px;
+  margin-left: 20px;
+  border-radius: 17px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 0px;
 }
 
 #imageContainer {
-    display: flex;
-    flex-direction: column;
-  }
-  
-#logoContainer {
-    display: flex;
-    gap: 30px;
-    padding-left: 15px;
-  }
+  display: flex;
+  flex-direction: column;
+}
 
-  #linkedinLogo,
-  #githubLogo {
-    padding: 12px 0px 0px 0px;
-  }
-  
+#logoContainer {
+  display: flex;
+  gap: 30px;
+  padding-left: 15px;
+}
+
+#linkedinLogo,
+#githubLogo {
+  padding: 12px 0px 0px 0px;
+}
+
 /* Project Gallery */
 
 #galleryContainer {
@@ -202,7 +202,7 @@ a {
   height: auto;
 }
 
-.galleryTextTitle{
+.galleryTextTitle {
   font-size: larger;
 }
 
@@ -251,3 +251,98 @@ a {
   left: 95%;
 }
 
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+  body {
+    margin: 0px 4%;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .aboutHeader h2 {
+    font-size: smaller;
+  }
+
+  #resumeImage {
+    height: auto;
+    width: 90%;
+    margin-left: 5px;
+  }
+
+  #logoContainer {
+    gap: 15px;
+  }
+
+  #linkedinLogo,
+  #githubLogo {
+    height: 15px;
+    width: 15px;
+  }
+
+
+  #galleryContainer,
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #galleryContainer img {
+    max-width: 100%;
+    margin-bottom: 5px;
+  }
+
+  #galleryContainer p {
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  .galleryText {
+    margin: 8px 20px 0px 20px;
+  }
+
+  .galleryTextTitle {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .left {
+    font-size: 1.1rem;
+  }
+
+  .aboutSection {
+    flex-direction: column;
+  }
+
+  #resumeImage {
+    max-width: 40%;
+    max-height: auto;
+  }
+
+  #imageContainer {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #logoContainer {
+    align-items: center;
+  }
+
+  #linkedinLogo,
+  #githubLogo {
+    height: 20px;
+    width: 20px;
+  }
+
+  .aboutContent p {
+    font-size: 0.8rem;
+  }
+
+  #contactContainer {
+    margin: 4rem 50px;
+  }
+
+}
