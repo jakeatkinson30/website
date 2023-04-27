@@ -30,8 +30,8 @@ Fonts used: Inter from Google Fonts
 
 Icons used:
 
-    - **Hand peace sign"" by Icons8
-    - ""LinkedIn icon"" by Icons8
-    - ""GitHub icon"" by Icons8
-    - ""Mail icon"" by Icons8
+    - **Hand peace sign** by Icons8
+    - **LinkedIn icon** by Icons8
+    - **GitHub icon** by Icons8
+    - **Mail icon** by Icons8
     
