@@ -145,9 +145,12 @@ a {
   padding-left: 15px;
 }
 
-#linkedinLogo,
-#githubLogo {
+.logos {
   padding: 12px 0px 0px 0px;
+}
+
+.logos:hover {
+  transform: scale(1.2);
 }
 
 /* Project Gallery */
@@ -275,8 +278,7 @@ a {
     gap: 15px;
   }
 
-  #linkedinLogo,
-  #githubLogo {
+  .logos {
     height: 15px;
     width: 15px;
   }
@@ -333,8 +335,7 @@ a {
     align-items: center;
   }
 
-  #linkedinLogo,
-  #githubLogo {
+  .logos {
     height: 20px;
     width: 20px;
   }
